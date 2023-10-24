@@ -16,7 +16,7 @@ const thirdAngle = parseInt(prompt("Enter the value of the third angle:"));
 
  //Question2
 
- //2-What does this code return? 
+ //2-What does this code return? //it returns coffee.
  if (!null) {
     console.log("coffee");
   } else if (![]) {
