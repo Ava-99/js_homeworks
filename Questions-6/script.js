@@ -32,13 +32,13 @@
 //     let cube = number * number * number;
 //     return cube;
 // }
-// if(operator == "^"){
+// if(operator === "^"){
 //     let resultOfSquare = squareOfNumber(number);
 //     console.log(resultOfSquare);
-// }else if(operator == "**"){
+// }else if(operator === "**"){
 //     let resultOfDouble = doubleOfNumber(number);
 //     console.log(resultOfDouble);
-// }else if(operator == "***"){
+// }else if(operator === "***"){
 //     let resultOfCube = cubeOfNumber(number);
 //     console.log(resultOfCube);
 // }else{
