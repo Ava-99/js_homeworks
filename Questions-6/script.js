@@ -34,13 +34,13 @@
 // }
 // if(operator === "^"){
 //     let resultOfSquare = squareOfNumber(number);
-//     console.log(resultOfSquare);
+//     console.log(`squareNumber(${number}, "^") = ${resultOfSquare}`);
 // }else if(operator === "**"){
 //     let resultOfDouble = doubleOfNumber(number);
-//     console.log(resultOfDouble);
+//     console.log(`doubleNumber(${number}, "**") = ${resultOfDouble}`);
 // }else if(operator === "***"){
 //     let resultOfCube = cubeOfNumber(number);
-//     console.log(resultOfCube);
+//     console.log(`cubeNumber(${number}, "***") = ${resultOfCube}`);
 // }else{
 //     alert("Your choice wasn't one of our options.");
 // }
