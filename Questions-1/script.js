@@ -31,11 +31,11 @@
 
 // Question-2: completed this table(Y or N)
 
-// | keyword | global scope | block scope | can be re-assign | can be re-declare |
-// |---------|--------------|-------------|------------------|-------------------|
-// | var     |      Y       |     Y       |        Y         |         Y         |
-// | let     |      N       |     Y       |        Y         |         N         |
-// | const   |      N       |     Y       |        N         |         N         |
+// | keyword | global scope | block scope | Function Scope | can be re-assign | can be re-declare |
+// |---------|--------------|-------------|----------------|------------------|-------------------|
+// | var     |      Y       |     Y       |       N        |        Y         |         Y         |
+// | let     |      N       |     N       |       N        |        Y         |         N         |
+// | const   |      N       |     N       |       N        |        N         |         N         |
 
 //--------------------------------------------------------------------------------------------
 
