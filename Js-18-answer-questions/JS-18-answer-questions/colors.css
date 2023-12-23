@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(227, 201, 227);
+}
+
+.first {
+  width: 1200px;
+  height: 550px;
+  margin: 70px auto;
+  background-color: rgb(196, 163, 196);
+  border-radius: 40px;
+  position: relative;
+}
+
+.second {
+  width: 1100px;
+  height: 450px;
+
+  background-color: rgb(221, 214, 221);
+  border-radius: 40px;
+
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+img {
+  width: 340px;
+  height: 250px;
+  position: absolute;
+  top: 250px;
+  left: 850px;
+}
+
+.cirlclescontainer {
+  display: flex;
+  flex-direction: row;
+  margin: 70px 150px;
+}
+
+.color-circle {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.rectanglescontainer {
+  display: flex;
+  flex-direction: row;
+  margin: 60px 225px;
+}
+
+.rectangle {
+  width: 65px;
+  height: 80px;
+  margin: 10px;
+  position: static;
+  border: 2px solid rgb(118, 115, 115);
+}
+
