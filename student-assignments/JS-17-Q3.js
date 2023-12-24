@@ -11,3 +11,23 @@
 */
 // !Answer:
 const navbarItem = ["Home", "Products", "Blog", "Contact us"];
+
+const navbarEle = document.querySelector("ul.navbar");
+
+navbarItem.forEach((item) => {
+  const liEle = document.createElement("li");
+  liEle.textContent = item;
+  navbarEle.appendChild(liEle);
+});
+
+const liEles = document.querySelectorAll("ul.navbar li");
+liEles.forEach((li) => {
+  li.classList.add("item");
+});
+
+liEles.forEach((li) => {
+  li.style.margin = "0 1rem";
+  li.style.cursor = "pointer";
+});
+
+

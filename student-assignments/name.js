@@ -261,3 +261,16 @@ const names = [
     gender: "boy",
   },
 ];
+
+const divEle = document.getElementById("namesContainer");
+
+names.forEach((person) => {
+  const nameEle = document.createElement("span");
+  nameEle.textContent = person.name;
+  divEle.appendChild(nameEle);
+  if (person.gender === "girl") {
+    nameEle.classList.add("girl");
+  } else if (person.gender === "boy") {
+    nameEle.classList.add("boy");
+  }
+});
